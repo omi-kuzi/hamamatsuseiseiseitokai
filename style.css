@@ -1,0 +1,46 @@
+body {
+    background-image: linear-gradient(to bottom, #ffeb3b, #ff9800);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.h1 {
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.omikuji-button {
+    background-color: #e91e63;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+.omikuji-button:hover {
+    transform: scale(1.05);
+}
+
+.result-area {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
